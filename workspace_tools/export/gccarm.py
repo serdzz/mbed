@@ -53,12 +53,14 @@ class GccArm(Exporter):
         'HRM1017',
         'RBLAB_NRF51822',
         'LPC2368',
+        'LPC2460',
         'LPCCAPPUCCINO',
         'ARCH_BLE',
         'MTS_GAMBIT',
         'ARCH_MAX',
         'NUCLEO_F401RE',
         'NUCLEO_F411RE',
+        'NUCLEO_F446RE',
         'ARCH_MAX',
         'DISCO_F429ZI',
         'NUCLEO_F030R8',
@@ -85,6 +87,12 @@ class GccArm(Exporter):
 		'DELTA_DFCM_NNN40',
         'RZ_A1H',
         'MOTE_L152RC',
+        'EFM32WG_STK3800',
+        'EFM32LG_STK3600',
+        'EFM32GG_STK3700',
+        'EFM32ZG_STK3200',
+        'EFM32HG_STK3400',
+        'NZ32ST1L',
     ]
 
     DOT_IN_RELATIVE_PATH = True
